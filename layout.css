@@ -1,0 +1,103 @@
+/**
+ * Tableless Layout for default template
+ *
+ * @author Andreas Gohr <andi@splitbrain.org>
+ * @author moraes <moraes@tipos.com.br>
+ */
+
+/* -------------- top row --------------- */
+
+
+
+div.dokuwiki .header {
+  padding: 35px 0 50px 0;
+
+}
+
+div.dokuwiki .pagename {
+  float: right;
+  font-size: 130%;
+  font-weight: bolder;
+  color: #555753 !important;
+  text-align: left;
+  vertical-align: middle;
+  margin: 30px 28px 0 0;;
+}
+
+div.dokuwiki .pagename a {
+  color: #0489B7  !important;
+  text-decoration: none !important;
+}
+
+div.dokuwiki .logo {
+  float: left;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+  background: transparent url("logo.png")  center no-repeat;
+}
+
+div.dokuwiki .desc a {
+  color: #555753!important;
+  text-decoration: none !important;
+  letter-spacing: 0.2pt;
+  float: left;
+  font-size: 160%;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+  margin-top: 35px;
+}
+
+div.dokuwiki .logo img {
+    vertical-align: middle;
+    float: left;
+   -webkit-transition: opacity 200ms ease-out;
+   -moz-transition: opacity 200ms ease-out;
+   transition: opacity 200ms ease-out;
+   opacity: 1;
+   margin: 0 35px 0 25px;
+   height: 76px;
+   width: 199px;
+}
+
+div.dokuwiki .logo img:hover {
+   opacity: 0.85;
+}
+
+/* ---------------  top and bottom bar ---------------- */
+div.dokuwiki .bar {
+  background: transparent;
+  padding: 0.1em 0.15em;
+  clear: both;
+}
+
+div.dokuwiki .bar-left {
+  float: left;
+}
+
+div.dokuwiki .bar-right {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki #bar__bottom {
+  margin-bottom: 3px;
+}
+
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki div.meta {
+  clear: both;
+  margin-top: 1em;
+  color: __text_alt__;
+  font-size: 90%;
+}
+
+div.dokuwiki div.meta div.user {
+  float: left;
+}
+
+div.dokuwiki div.meta div.doc {
+  text-align: right;
+}
