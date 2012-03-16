@@ -88,8 +88,8 @@ div.dokuwiki label.block input.edit {
 div.dokuwiki legend {
   padding: 4px 8px 25px 8px;
   background-color: #8fb3d9 ;
-	border-radius: 4px 4px 4px 4px;
-  margin-left: 15px;
+  border-radius: 4px 4px 4px 4px;
+  margin-left: -27px;
 }
 
 div.dokuwiki fieldset {
@@ -138,7 +138,7 @@ div.dokuwiki select.edit {
   display: inline;
 		-moz-border-radius: 5px 5px 5px 5px;
 		-webkit-border-radius: 5px;
-    box-shadow: 0 2px 2px -2px #555753;
+    box-shadow: 0 1px 2px -2px #555753;
 		border-radius: 5px 5px 5px 5px;
 }
 
