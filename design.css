@@ -675,12 +675,12 @@ div.dokuwiki ul.toc {
   list-style-type: none;
   list-style-image: none;
   line-height: 1.2em;
-  padding: 1em;
+  padding: 0.2em;
   margin: 0;
 }
 
 div.dokuwiki ul.toc li {
-  padding: 1px;
+  padding: 0.1em;
 }
 
 div.dokuwiki ul.toc li.clear {
