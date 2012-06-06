@@ -217,8 +217,8 @@ div.dokuwiki button.button {
   border: 1px solid __border__;
   color: __text__;
     background: #fff url(images/action_button-bg.png) center repeat-x;
-    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+    border-radius: 4px;
   text-shadow: 0 1px 0 #fff;
   vertical-align: middle;
     text-decoration: none;
@@ -710,7 +710,6 @@ div.dokuwiki a.toc:focus{
    padding: 2px 5px;
    margin: 3px;
    border: 1px solid #bbc5d5;
-   -moz-border-radius: 4px;
    -webkit-border-radius: 4px;
    border-radius: 4px;
 }
