@@ -45,7 +45,6 @@ if (!defined('DOKU_INC')) die();
     <div class="header">
       <div class="logo">
         <?php  tpl_link(wl(),'<img src="'.ml('logo.png').'"." />',' accesskey="h" title="[H]"') ?>
-        <!-- <a href="" title="Αρχική σελίδα"><img src="logo.png" /></a> -->
       </div>
       <div class="desc">
         <?php tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]"')?>
@@ -137,7 +136,7 @@ if (!defined('DOKU_INC')) die();
       <div class="bar-left" id="bar__bottomleft" style="margin-top: 10px;">
         <?php tpl_button('login')?>
         <?php tpl_button('subscribe')?>
-        <?php tpl_button('media')?>
+    <!--<?php tpl_button('media')?> -->
         <?php tpl_button('index')?>
       </div>       
       <div class="bar-right" id="bar__bottomright">
